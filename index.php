@@ -19,6 +19,7 @@
     <meta property="og:description" content="...">
     <meta property="og:locale" content="da.DK">
 
+    <script src="https://kit.fontawesome.com/48da49c145.js" crossorigin="anonymous"></script>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
 
