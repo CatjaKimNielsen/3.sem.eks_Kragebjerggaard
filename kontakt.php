@@ -37,7 +37,7 @@
     <div class="row p-sm-3 p-md-5">
         <div class="col-sm-12 col-md-6">
             <div class="mb-3">
-                <h2 class="my-4">Kontaktformular</h2>
+                <h2 class="my-5 montserrat">Kontaktformular</h2>
                 <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Navn" style="width: 75%">
             </div>
             <div class="mb-3">
@@ -46,7 +46,7 @@
             <div class="mb-3">
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="8" placeholder="Skriv din tekst her"></textarea>
             </div>
-            <button type="button" class="btn btn-mørkebrun btn-lg" data-bs-toggle="button" style="color: white">Send Email</button>
+            <button type="button" class="btn btn-mørkebrun btn-lg montserrat" data-bs-toggle="button" style="color: white" href="#">Send Email</button>
         </div>
 
         <div class="col-sm-12 col-md-6 ml-2 mt-5">
@@ -58,24 +58,24 @@
 
     <div class="row">
         <div class="col-12 text-center">
-            <h2>Læs også:</h2>
+            <h2 class="montserrat">Læs også:</h2>
         </div>
     </div>
 
     <div class="row p-sm-3 p-md-5">
         <div class="col-sm-6 col-md-4 text-center">
-            <img src="images/Gården.jpg" id="Gård" alt="Gård">
-            <button type="button" class="btn btn-mørkebrun btn-lg m-4" style="color: white">Læs om historien</button>
+            <img src="images/Gården.jpg" id="Gård" alt="Gård" class="mt-4">
+            <button type="button" class="btn btn-mørkebrun btn-lg m-4 montserrat" style="color: white" href="#">Læs om historien</button>
         </div>
 
         <div class="col-sm-6 col-md-4 text-center">
-            <img src="images/koer.jpeg" id="Koer" alt="Køer">
-            <button type="button" class="btn btn-mørkebrun btn-lg m-4" style="color: white">Læs om køerne</button>
+            <img src="images/koer.jpeg" id="Koer" alt="Køer" class="mt-4">
+            <button type="button" class="btn btn-mørkebrun btn-lg m-4 montserrat" style="color: white" href="#">Læs om køerne</button>
         </div>
 
         <div class="col-sm-6 col-md-4 text-center">
-            <img src="images/Gården.jpg" id="Gård" alt="Gård">
-            <button type="button" class="btn btn-mørkebrun btn-lg m-4" style="color: white">Læs om gården</button>
+            <img src="images/Gården.jpg" id="Gård" alt="Gård" class="mt-4">
+            <button type="button" class="btn btn-mørkebrun btn-lg m-4 montserrat" style="color: white" href="#">Læs om gården</button>
         </div>
 
     </div>
