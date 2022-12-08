@@ -23,7 +23,7 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
 
     <style> body{background-color: rgb(236, 236, 236);} </style>
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Tangerine:wght@700&display=swap" rel="stylesheet">
+
 
 
 </head>
@@ -37,7 +37,7 @@
     <div class="row p-sm-3 p-md-5">
         <div class="col-sm-12 col-md-6">
             <div class="mb-3">
-                <h2>Kontaktformular</h2>
+                <h2 class="my-4">Kontaktformular</h2>
                 <label for="exampleFormControlInput1" class="form-label">Navn</label>
                 <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Navn">
             </div>
@@ -49,7 +49,7 @@
                 <label for="exampleFormControlTextarea1" class="form-label">Tekst</label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
-            <button type="button" class="btn btn-mørkebrun btn-lg" data-bs-toggle="button" style="color: white">Send Email</button>
+            <button type="button" class="btn btn-mørkebrun btn-lg text" data-bs-toggle="button" style="color: white">Send Email</button>
         </div>
 
         <div class="col-sm-12 col-md-6">
@@ -58,24 +58,27 @@
 
     </div>
 
+
     <div class="row">
-        <h2>Læs også:</h2>
+        <div class="col-12 text-center">
+            <h2>Læs også:</h2>
+        </div>
     </div>
 
     <div class="row p-sm-3 p-md-5">
-        <div class="col-sm-6 col-md-4">
+        <div class="col-sm-6 col-md-4 text-center">
             <img src="images/Gården.jpg" id="Gård" alt="Gård">
-            <button type="button" class="btn btn-mørkebrun" style="color: white">Læs om historien</button>
+            <button type="button" class="btn btn-mørkebrun btn-lg m-4" style="color: white">Læs om historien</button>
         </div>
 
-        <div class="col-sm-6 col-md-4">
+        <div class="col-sm-6 col-md-4 text-center">
             <img src="images/koer.jpeg" id="Koer" alt="Køer">
-            <button type="button" class="btn btn-mørkebrun" style="color: white">Læs om køerne</button>
+            <button type="button" class="btn btn-mørkebrun btn-lg m-4" style="color: white">Læs om køerne</button>
         </div>
 
-        <div class="col-sm-6 col-md-4">
+        <div class="col-sm-6 col-md-4 text-center">
             <img src="images/Gården.jpg" id="Gård" alt="Gård">
-            <button type="button" class="btn btn-mørkebrun" style="color: white">Læs om gården</button>
+            <button type="button" class="btn btn-mørkebrun btn-lg m-4" style="color: white">Læs om gården</button>
         </div>
 
     </div>
