@@ -38,16 +38,13 @@
         <div class="col-sm-12 col-md-6">
             <div class="mb-3">
                 <h2 class="my-4">Kontaktformular</h2>
-                <label for="exampleFormControlInput1" class="form-label">Navn</label>
                 <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Navn">
             </div>
             <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Email address</label>
                 <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="navn@eksempel.dk">
             </div>
             <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Tekst</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="8" placeholder="Skriv din tekst her"></textarea>
             </div>
             <button type="button" class="btn btn-mørkebrun btn-lg text" data-bs-toggle="button" style="color: white">Send Email</button>
         </div>
