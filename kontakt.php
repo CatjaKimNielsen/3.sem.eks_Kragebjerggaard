@@ -36,11 +36,23 @@
 
     <div class="row">
         <div class="col-sm-12 col-md-6">
-
+            <div class="mb-3">
+                <h2>Kontaktformular</h2>
+                <label for="exampleFormControlInput1" class="form-label">Navn</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Navn">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="navn@eksempel.dk">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Tekst</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
         </div>
 
         <div class="col-sm-12 col-md-6">
-            <img src="images/gaardbutik.jpg">
+            <img src="images/gaardbutik.jpg" id="gaardbutik" alt="Gårdbutik og ejere">
         </div>
 
     </div>
@@ -56,7 +68,7 @@
         </div>
 
         <div class="col-sm-6 col-md-4">
-            <img src="images/"
+            <img src="images/koer.jpeg" id="Koer" alt="Køer">
         </div>
 
     </div>
