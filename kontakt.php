@@ -34,7 +34,32 @@
     <?php include "includes/navigation.php"; ?>
 
 
-    ...
+    <div class="row">
+        <div class="col-sm-12 col-md-6">
+
+        </div>
+
+        <div class="col-sm-12 col-md-6">
+            <img src="images/gaardbutik.jpg">
+        </div>
+
+    </div>
+
+
+    <div class="row">
+        <div class="col-sm-6 col-md-4">
+
+        </div>
+
+        <div class="col-sm-6 col-md-4">
+
+        </div>
+
+        <div class="col-sm-6 col-md-4">
+            <img src="images/"
+        </div>
+
+    </div>
 
 
     <?php include "includes/footer.php"; ?>
