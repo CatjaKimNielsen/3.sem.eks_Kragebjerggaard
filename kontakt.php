@@ -38,10 +38,10 @@
         <div class="col-sm-12 col-md-6">
             <div class="mb-3">
                 <h2 class="my-4">Kontaktformular</h2>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Navn">
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Navn" style="width: 75%">
             </div>
             <div class="mb-3">
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="navn@eksempel.dk">
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="navn@eksempel.dk" style="width: 75%">
             </div>
             <div class="mb-3">
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="8" placeholder="Skriv din tekst her"></textarea>
