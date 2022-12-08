@@ -1,11 +1,9 @@
 
-<footer class="sticky-bottom text-white">
+<footer class=" text-white">
 
     <nav class="container-fluid bg-mørkegrøn  ">
 
         <div class="row">
-
-
             <div class="col-4">ja</div>
 
             <div class="col-4">

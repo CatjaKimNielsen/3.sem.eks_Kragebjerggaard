@@ -46,10 +46,10 @@
             <div class="mb-3">
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="8" placeholder="Skriv din tekst her"></textarea>
             </div>
-            <button type="button" class="btn btn-mørkebrun btn-lg text" data-bs-toggle="button" style="color: white">Send Email</button>
+            <button type="button" class="btn btn-mørkebrun btn-lg" data-bs-toggle="button" style="color: white">Send Email</button>
         </div>
 
-        <div class="col-sm-12 col-md-6">
+        <div class="col-sm-12 col-md-6 ml-2 mt-5">
             <img src="images/gaardbutik.jpg" id="gaardbutik" alt="Gårdbutik og ejere">
         </div>
 
