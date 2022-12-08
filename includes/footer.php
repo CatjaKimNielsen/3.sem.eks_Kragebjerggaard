@@ -1,7 +1,7 @@
 
 <footer>
 
-    <nav class="container-fluid">
+    <nav class="container-fluid bg-mørkegrøn">
 
         <div class="row">
 
