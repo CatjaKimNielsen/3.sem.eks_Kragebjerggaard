@@ -11,6 +11,7 @@ $custom-colors: (
     "mørkebrun": #96766B,
     "lysebrun": #D9b1A0,
 );
+
 $theme-colors: map-merge($theme-colors, $custom-colors);
 
 @import "../node_modules/bootstrap/scss/bootstrap";

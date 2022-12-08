@@ -1,12 +1,19 @@
+<?php
 
-<footer class="sticky-bottom text-white">
 
-    <nav class="container-fluid bg-mørkegrøn  ">
 
+?>
+
+
+
+
+<footer id="footer" class="text-white bg-mørkegrøn">
         <div class="row">
 
 
-            <div class="col-4">ja</div>
+            <div class="col-4">
+                <h2></h2>
+            </div>
 
             <div class="col-4">
 
@@ -34,22 +41,18 @@
                 </div>
 
             <div class="col-4">
-
                 <div>FØLG OS</div>
                 <br>
                 <div>
                     <i fa-regular fa-insta></i>
                     <i fa-regular fa-fb></i>
-                    <i fa-regular fa-messenger></i></div>
+                    <i fa-regular fa-messenger></i>
+                </div>
             </div>
 
 
 
-
-        </div>
-
-    </nav>
-
+            </div>
 </footer>
 
 
