@@ -42,13 +42,22 @@ img {
 	opacity: 30%;
 }
 
-.poppins{
-	font-family: 'Poppins', sans-serif;
+.tangerine{
+	font-family: 'Tangerine', cursive;
+}
+
+.montserrat{
+	font-family: 'Montserrat', sans-serif;
 }
 
 #gaardbutik{
-	height: 65%;
-	width: auto;
+	width: 60%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.container{
 	display: flex;
 	justify-content: center;
 	align-items: center;
