@@ -40,7 +40,7 @@
         <div class="container py-5">
             <div class="row py-4">
             <div class="col-md-6 p-5">
-                <h2 class="title montserrat text-center">Historie</h2>
+                <h2 class="title montserrat text-center p-5">Historie</h2>
                 <p class="text montserrat">
                     Kragebjerggaard er en fin familieejet gård med beliggenhed i flotte
                     grønne omgivelser i Sorø. Gården blev bygget i 1961 og er blevet passet
@@ -54,7 +54,7 @@
                 <img src="images/Gården.jpg" class="img-fluid" alt="">
             </div>
                 <div class="col-md-6 p-5">
-                    <h2 class="title montserrat text-center" >Dyrevelfærd</h2>
+                    <h2 class="title montserrat text-center p-5" >Dyrevelfærd</h2>
                     <p class="text montserrat">
                         På Kragebjerggaard går vi meget op i vores dyrs trivsel og at de behandles
                         godt  og lever under gode forhold.Vi arbejder dagligt på at dyrenes
@@ -70,7 +70,7 @@
                 </div>
 
             <div class="col-md-6 p-5">
-                    <h2 class="title montserrat text-center">Værdigrundlag</h2>
+                    <h2 class="title montserrat text-center p-5">Værdigrundlag</h2>
                     <p class="text montserrat">
                         Alle vores produkter er økologiske og dyrket i Danmark. Vi har stor fokus på
                         at bevare og passe på naturen. Vi anvender kun sprøjtemidler og jordforbedringsmidler
