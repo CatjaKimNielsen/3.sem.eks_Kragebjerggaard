@@ -1,5 +1,5 @@
 
-<nav class="navbar navbar-expand-lg navbar-dark">
+<nav class="navbar navbar-expand-lg navbar-dark position-fixed w-100">
 
     <div class="container-fluid bg-mørkegrøn p-3">
 
