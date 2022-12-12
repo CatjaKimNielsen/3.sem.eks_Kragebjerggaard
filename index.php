@@ -38,6 +38,7 @@
     ...
 
     <img src="images/Ko.jpeg" class="d-block w-100" alt="køer">
+    <h2 class="heading tangerine">Kragebjerggaard</h2>
 
     <br><br>
 
