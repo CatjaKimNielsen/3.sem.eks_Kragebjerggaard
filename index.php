@@ -98,21 +98,21 @@
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="images/mælkeprodukt.png" class="d-block w-50" id="billede" alt="...">
+                        <img src="images/mælkeprodukt.png" class="d-block w-25" id="billede" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h5 class="montserrat">Malk en ko</h5>
                             <p class="montserrat">Hver søndag i januar kan du komme forbi vores gård og malke en ko. Du får mælken til halv pris, og den mest friske mælk man kan få.</p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="images/kragebjerggård%20råvarer.png" class="d-block w-50" id="billede" alt="...">
+                        <img src="images/kragebjerggård%20råvarer.png" class="d-block w-25" id="billede" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h5 class="montserrat">Nye sæsonvarer</h5>
                             <p class="montserrat">Det er vinter og derfor kan du nu online og i vores gårdbutik finde alle de lækre vintergrøntsager, selvfølgelig Økologiske.</p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="images/SoMe_Opslag.png" class="d-block w-50" id="billede" alt="...">
+                        <img src="images/SoMe_Opslag.png" class="d-block w-25" id="billede" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h5 class="montserrat">Høst dine egne grøntsager</h5>
                             <p class="montserrat">Alle weekender kan du og familien komme forbi og høste en kasse med valgfri, økoligiske grøntsager. <br> For kun 100kr kan du fylde kassen, og få en dejlig oplevelse.</p>
