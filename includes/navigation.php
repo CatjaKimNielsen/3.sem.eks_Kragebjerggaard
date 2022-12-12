@@ -2,7 +2,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark position-fixed w-100">
 
     <div class="container-fluid bg-mørkegrøn p-3">
-
+        <a class="navbar-brand" href="index.php"><img id="logo" src="images/coclologo.png"></a>
         <a class="navbar-brand tangerine" href="index.php"> Kragebjerggaard </a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
