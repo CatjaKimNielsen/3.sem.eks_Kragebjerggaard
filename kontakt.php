@@ -50,7 +50,7 @@
         </div>
 
         <div class="col-sm-12 col-md-6 ml-2 mt-5">
-            <img src="images/gaardbutik.jpg" id="gaardbutik" alt="Gårdbutik og ejere">
+            <img src="images/gaardbutik.jpg" id="billede" alt="Gårdbutik og ejere">
         </div>
 
     </div>
