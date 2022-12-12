@@ -12,16 +12,21 @@
         <div class="collapse navbar-collapse w-100 justify-content-end" id="navbarNavDropdown">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="...">Shop</a>
+                    <a class="nav-link" aria-current="page" href="#">Shop</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="...">Gårdbutikken</a>
+                    <a class="nav-link" aria-current="page" href="#">Gårdbutikken</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="...">Om os</a>
+                    <a class="nav-link" aria-current="page" href="om_os.php">Om os</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="...">Kontakt</a>
+                    <a class="nav-link" aria-current="page" href="kontakt.php">Kontakt</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">
+                        <i class="fa-solid fa-basket-shopping-simple"></i>
+                    </a>
                 </li>
             </ul>
         </div>
