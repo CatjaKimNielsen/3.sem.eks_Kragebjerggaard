@@ -42,7 +42,7 @@
     <br><br>
 
 <div class="row p-sm-3 p-md-5">
-<div class="col-md-6">
+<div class="col-lg-6 col-sm-12">
     <p class="h6 montserrat m-5">
         På kravebjerggård har vi grønne fingre, så du kan få grønsager!
     </p>
@@ -59,7 +59,7 @@
     <button type="button" class="btn btn-mørkebrun btn-lg col-sm-3 m-4 montserrat" style="color: white" href="#">Læs mere</button>
     </div>
 </div>
-    <div class="col-md-6">
+    <div class="col-lg-6 col-sm-12">
         <img src="images/carrottrail.png" class="col-md-6 col-md-3" alt="" id="billede">
     </div>
 
@@ -68,10 +68,10 @@
     <br><br>
 
     <div class="row p-sm-3 p-md-5">
-        <div class="col-lg-6 col-md-6 col-sm-6">
+        <div class="col-lg-6  col-sm-12">
             <img src="images/farmmand.jpeg" id="billede" class="20px" alt="Bondemand">
         </div>
-        <div class="col-lg-6 col-md-6 col-sm-6">
+        <div class="col-lg-6 col-sm-12">
         <div class="card-text montserrat m-5">
             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
@@ -87,7 +87,8 @@
     </div>
 
 
-    <div class="row">
+    <div class="row bg-lysebrun">
+        <h1 class="montserrat text-center p-5" style="color: white">Events på Kragebjerggaard</h1>
         <div class="col-12">
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
                 <div class="carousel-indicators">
@@ -97,24 +98,24 @@
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="..." class="d-block w-100" alt="...">
+                        <img src="images/mælkeprodukt.png" class="d-block w-50" id="billede" alt="...">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>First slide label</h5>
-                            <p>Some representative placeholder content for the first slide.</p>
+                            <h5 class="montserrat">Malk en ko</h5>
+                            <p class="montserrat">Hver søndag i januar kan du komme forbi vores gård og malke en ko. Du får mælken til halv pris, og den mest friske mælk man kan få.</p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="..." class="d-block w-100" alt="...">
+                        <img src="images/kragebjerggård%20råvarer.png" class="d-block w-50" id="billede" alt="...">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>Second slide label</h5>
-                            <p>Some representative placeholder content for the second slide.</p>
+                            <h5 class="montserrat">Nye sæsonvarer</h5>
+                            <p class="montserrat">Det er vinter og derfor kan du nu online og i vores gårdbutik finde alle de lækre vintergrøntsager, selvfølgelig Økologiske.</p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="..." class="d-block w-100" alt="...">
+                        <img src="images/SoMe_Opslag.png" class="d-block w-50" id="billede" alt="...">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>Third slide label</h5>
-                            <p>Some representative placeholder content for the third slide.</p>
+                            <h5 class="montserrat">Høst dine egne grøntsager</h5>
+                            <p class="montserrat">Alle weekender kan du og familien komme forbi og høste en kasse med valgfri, økoligiske grøntsager. <br> For kun 100kr kan du fylde kassen, og få en dejlig oplevelse.</p>
                         </div>
                     </div>
                 </div>
