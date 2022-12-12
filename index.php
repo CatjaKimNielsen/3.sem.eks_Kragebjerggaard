@@ -89,7 +89,7 @@
 
     <div class="row bg-lysebrun">
         <h1 class="montserrat text-center p-5" style="color: white">Events på Kragebjerggaard</h1>
-        <div class="col-12">
+        <div class="col-12 mb-5">
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -98,21 +98,21 @@
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="images/mælkeprodukt.png" class="d-block w-50" id="billede" alt="...">
+                        <img src="images/mælkeprodukt.png" class="d-block w-25" id="billede" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h5 class="montserrat">Malk en ko</h5>
                             <p class="montserrat">Hver søndag i januar kan du komme forbi vores gård og malke en ko. Du får mælken til halv pris, og den mest friske mælk man kan få.</p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="images/kragebjerggård%20råvarer.png" class="d-block w-50" id="billede" alt="...">
+                        <img src="images/kragebjerggård%20råvarer.png" class="d-block w-25" id="billede" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h5 class="montserrat">Nye sæsonvarer</h5>
                             <p class="montserrat">Det er vinter og derfor kan du nu online og i vores gårdbutik finde alle de lækre vintergrøntsager, selvfølgelig Økologiske.</p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="images/SoMe_Opslag.png" class="d-block w-50" id="billede" alt="...">
+                        <img src="images/SoMe_Opslag.png" class="d-block w-25" id="billede" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h5 class="montserrat">Høst dine egne grøntsager</h5>
                             <p class="montserrat">Alle weekender kan du og familien komme forbi og høste en kasse med valgfri, økoligiske grøntsager. <br> For kun 100kr kan du fylde kassen, og få en dejlig oplevelse.</p>
