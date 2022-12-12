@@ -89,7 +89,7 @@
 
     <div class="row bg-lysebrun">
         <h1 class="montserrat text-center p-5" style="color: white">Events på Kragebjerggaard</h1>
-        <div class="col-12">
+        <div class="col-12 mb-5">
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
