@@ -1,7 +1,7 @@
 
-<nav class="navbar navbar-expand-lg navbar-dark w-100">
+<nav class="navbar navbar-expand-lg navbar-dark">
 
-    <div class="container-fluid bg-mørkegrøn">
+    <div class="container-fluid bg-mørkegrøn p-3">
 
         <a class="navbar-brand tangerine" href="index.php"> Kragebjerggaard </a>
 

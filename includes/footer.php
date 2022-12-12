@@ -7,8 +7,8 @@
 
 
 
-<footer id="footer" class="text-white bg-mørkegrøn">
-    <div class="container-fluid">
+<footer class="text-white bg-mørkegrøn">
+
         <div class="row p-5">
 
 
@@ -57,9 +57,6 @@
                     <i fa-regular fa-fb></i>
                     <i fa-regular fa-messenger></i>
                 </div>
-            </div>
-
-
             </div>
 </footer>
 
