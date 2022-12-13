@@ -36,10 +36,10 @@
 
     <img src="images/kragebjerggaard%20banner.png" class="py-5" alt="">
 
-    
+
 
     <section>
-        <div class="container py-5">
+        <div class="container py-1">
             <div class="row py-4">
             <div class="col-md-6 p-5">
                 <h2 class="title montserrat text-center p-5">Historie</h2>
