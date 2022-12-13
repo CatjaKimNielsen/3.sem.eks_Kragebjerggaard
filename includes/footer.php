@@ -13,14 +13,14 @@
             <h5 class="montserrat">TILMELD VORES NYHEDSBREV OG FÅ NYHEDER DIREKTE I DIN INDBAKKE</h5>
         </div>
 
-        <div class="col-3">
+        <div class="col-4">
             <div class="mb-3">
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Din e-mail" style="width:100%">
+                <input type="email" class="form-control mx-2" id="exampleFormControlInput1" placeholder="Din e-mail" style="width:100%">
             </div>
         </div>
 
-        <div class="col-3">
-            <button type="button" class="btn btn-lysebrun montserrat" data-bs-toggle="button" style="color: white" href="#">Tilmeld</button>
+        <div class="col-2">
+            <button type="button" class="btn btn-lysebrun montserrat px-lg-5 px-sm-4 mx-2" data-bs-toggle="button" style="color: white" href="#">Tilmeld</button>
         </div>
 
     </div>
