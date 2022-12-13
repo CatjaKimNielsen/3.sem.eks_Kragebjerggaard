@@ -21,6 +21,7 @@
 
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="https://kit.fontawesome.com/57d07bd12e.js" crossorigin="anonymous"></script>
 
     <style> body{background-color: rgb(236, 236, 236);} </style>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Tangerine&display=swap" rel="stylesheet">
