@@ -11,10 +11,10 @@
         <div class="collapse navbar-collapse w-100 justify-content-end" id="navbarNavDropdown">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link montserrat m-2" aria-current="page" style="color: white" href="#"><h5>Onlineshop</h5></a>
+                    <a class="nav-link montserrat m-2" aria-current="page" style="color: white" href="shop.php"><h5>Onlineshop</h5></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link montserrat m-2" aria-current="page" style="color: white" href="#"><h5>Gårdbutikken</h5></a>
+                    <a class="nav-link montserrat m-2" aria-current="page" style="color: white" href="gaardbutikken.php"><h5>Gårdbutikken</h5></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link montserrat m-2" aria-current="page" style="color: white" href="om_os.php"><h5>Om os</h5></a>
