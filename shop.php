@@ -21,10 +21,13 @@
 
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="https://kit.fontawesome.com/57d07bd12e.js" crossorigin="anonymous"></script>
+
 
     <style> body{background-color: rgb(236, 236, 236);} </style>
+    <style> a{color: rgb(150, 118, 107);}  a:link{color: rgb(150, 118, 107);}  a:hover{color: rgb(150, 118, 107);}</style>
+
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Tangerine&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/57d07bd12e.js" crossorigin="anonymous"></script>
 
 
 </head>
@@ -33,6 +36,16 @@
 
 
     <?php include "includes/navigation.php"; ?>
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="Banner col-12 mt-5 mb-5">
+                <h1 class="tangerine text-center" style="font-size: 3.5rem">Økologiske varer direkte til din dør!</h1>
+                <p class="montserrat text-center"> Bestil i dag og få leveret i morgen</p>
+            </div>
+        </div>
+    </div>
 
 
     ...
