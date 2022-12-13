@@ -74,12 +74,15 @@
         </div>
         <div class="col-lg-6 col-sm-12">
         <div class="card-text montserrat m-5">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-            when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-            It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-            It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            På vores gård har vi 167 køer, der alle sammen fortjener det bedste liv.
+            Fordi ikke nok med at økologi er vigtigt, betyder dyrevelfærd også meget for os.
+            Derfor har vi dedikeret et stort areal af vores gård til at køerne frit
+            kan græsse i de varme måneder. Når vejret bliver koldt har vi en stor varm kostald,
+            hvor køerne får økologisk fodder og har massere af plads at gå rundt og hygge sig på.
+            Alle vores marker er økologiske, og det vi producerer altid i sæson. Det giver ikke kun
+            en bedre høst, men også en langt bedre smag i råvarerne.
+            Vi tror på at de bedste råvarer kommer når man arbejder sammen med naturen,
+            så derfor vil du ofte kunne se en af vores mange gårdkatte løbe rundt på markerne.
         </div>
             <div class="text-center">
                 <button type="button" class="btn btn-mørkebrun btn-lg col-sm-3 m-4 montserrat" style="color: white" href="#">Læs mere</button>
