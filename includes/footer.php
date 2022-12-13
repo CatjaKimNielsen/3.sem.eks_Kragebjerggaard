@@ -1,9 +1,3 @@
-<?php
-
-
-
-?>
-
 
 
 
@@ -53,9 +47,9 @@
                     <h6>FØLG OS</h6></div>
                 <br>
                 <div>
-                    <i fa-regular fa-insta></i>
-                    <i fa-regular fa-fb></i>
-                    <i fa-regular fa-messenger></i>
+                    <i class="fab fa-instagram fa-3x p-1"></i>
+                    <i class="fab fa-facebook-square fa-3x p-1"></i>
+                    <i class="fab fa-facebook-messenger fa-3x p-1"></i>
                 </div>
             </div>
 </footer>
