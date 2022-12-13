@@ -33,12 +33,9 @@
 
     <?php include "includes/navigation.php"; ?>
 
-
-
     <img src="images/kragebjerggaard%20banner.png" class="py-5" alt="">
 
-
-
+    
 
     <section>
         <div class="container py-5">
