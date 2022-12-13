@@ -37,8 +37,7 @@
 
     ...
 
-    <img src="images/ko.png" class="d-block w-100"id="coverpic" alt="køer">
-    <h2 class="heading tangerine">Kragebjerggaard</h2>
+    <img src="images/ko.png" class="d-block w-100 py-5"id="coverpic" alt="køer">
 
     <br><br>
 
