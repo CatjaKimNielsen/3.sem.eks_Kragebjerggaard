@@ -22,7 +22,7 @@
                 <li class="nav-item">
                     <a class="nav-link montserrat m-2" aria-current="page"style="color: white"  href="kontakt.php"><h5>Kontakt</h5></a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item mx-3">
                     <a class="nav-link" aria-current="page" style="color: white" href="#">
                         <i class="fas fa-shopping-basket fa-2x"></i>
                     </a>

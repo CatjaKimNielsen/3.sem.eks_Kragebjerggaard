@@ -42,8 +42,7 @@
 
             <div class="col-12 col-md-2 mb-5">
                 <h3 class="montserrat mt-5 mb-4" style="font-size: 1.5rem"> FØLG OS </h3>
-                <div>
-                    <h6>FØLG OS</h6></div>
+
                 <br>
                 <div>
                     <i class="fab fa-instagram fa-3x p-1"></i>
