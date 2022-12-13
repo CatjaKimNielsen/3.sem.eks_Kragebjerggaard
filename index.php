@@ -19,12 +19,15 @@
     <meta property="og:description" content="...">
     <meta property="og:locale" content="da.DK">
 
-    <script src="https://kit.fontawesome.com/57d07bd12e.js" crossorigin="anonymous"></script>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
 
+
     <style> body{background-color: rgb(236, 236, 236);} </style>
+    <style> a{color: rgb(150, 118, 107);}  a:link{color: rgb(150, 118, 107);}  a:hover{color: rgb(150, 118, 107);}</style>
+
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Tangerine&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/57d07bd12e.js" crossorigin="anonymous"></script>
 
 
 </head>
@@ -35,63 +38,29 @@
     <?php include "includes/navigation.php"; ?>
 
 
-    ...
+    <img src="images/ko.png" class="d-block w-100 py-5" id="coverpic" alt="køer">
 
-    <img src="images/ko.png" class="d-block w-100 py-5"id="coverpic" alt="køer">
 
-    <br><br>
-
-<div class="row p-sm-3 p-md-5">
-<div class="col-lg-6 col-sm-12">
-    <p class="h6 montserrat m-5">
-        På kravebjerggård har vi grønne fingre, så du kan få grønsager!
-    </p>
-   <div class="card-text montserrat m-5">
-       Vores grønsager er 100% økologiske og smager er frisk og naturlig.
-      <br> Vi leverer til døren så du kan få den friske natur direkte til dit køkken med et par enkelte klik.
-      Vi garanterer friskhed og det kan altid smages.
-       <br> Vi levere på land og by på alle etager så du kan slappe af og nyde naturen!
-       <br>Tjek vores shop ud og vælg mellem masser af lækre grønsager og mejeri produkter!
-       <br><br>
-       Da vi garanterer friskhed, kan vi ikke garantere mængde, så køb nu før der er udsolgt!
-   </div>
-    <div class="text-center">
-    <button type="button" class="btn btn-mørkebrun btn-lg col-sm-3 m-4 montserrat" style="color: white" href="#">Læs mere</button>
-    </div>
-</div>
-    <div class="col-lg-6 col-sm-12">
-        <img src="images/carrottrail.png" class="col-md-6 col-md-3" alt="" id="billede">
-    </div>
-
-</div>
-
-    <br><br>
-
-    <div class="row p-sm-3 p-md-5">
-        <div class="col-lg-6  col-sm-12">
-            <img src="images/farmmand.jpeg" id="billede" class="20px" alt="Bondemand">
-        </div>
-        <div class="col-lg-6 col-sm-12">
-        <div class="card-text montserrat m-5">
-            På vores gård har vi 167 køer, der alle sammen fortjener det bedste liv.
-            Fordi ikke nok med at økologi er vigtigt, betyder dyrevelfærd også meget for os.
-            Derfor har vi dedikeret et stort areal af vores gård til at køerne frit
-            kan græsse i de varme måneder. Når vejret bliver koldt har vi en stor varm kostald,
-            hvor køerne får økologisk fodder og har massere af plads at gå rundt og hygge sig på.
-            Alle vores marker er økologiske, og det vi producerer altid i sæson. Det giver ikke kun
-            en bedre høst, men også en langt bedre smag i råvarerne.
-            Vi tror på at de bedste råvarer kommer når man arbejder sammen med naturen,
-            så derfor vil du ofte kunne se en af vores mange gårdkatte løbe rundt på markerne.
-        </div>
-            <div class="text-center">
-                <button type="button" class="btn btn-mørkebrun btn-lg col-sm-3 m-4 montserrat" style="color: white" href="#">Læs mere</button>
+    <section class="container">
+        <div class="row mt-5 mb-5">
+            <nav class="col-12 col-md-6">
+                <h2 class="montserrat ms-5 mt-5 me-5" style="font-size: 1.5rem"> ØKOLOGISK OG MED GRØNNE FINGRE</h2>
+                <p class="montserrat ms-5 mt-3 me-5 mb-3">Vores grønsager er 100% økologiske og smager friskt og naturligt.
+                    <br><br> Vi leverer til døren så du kan få den friske natur direkte til dit køkken med et par enkelte klik.
+                    Vi garanterer friskhed og det kan altid smages. <br><br> Vi levere på land og by på alle etager så du kan
+                    slappe af og nyde naturen! <br><br> Tjek vores shop ud og vælg mellem masser af lækre grønsager og mejeri produkter!
+                    Da vi garanterer friskhed, kan vi ikke garantere mængde, så køb nu før der er udsolgt!</p>
+                <a type="button" class="btn btn-mørkebrun montserrat ms-5 mt-3 me-5 mb-5 text-white" data-bs-toggle="button" style="width: 200px" href="shop.php"> Shop nu </a>
+            </nav>
+            <div class="col-12 col-md-6 mt-5 mt-md-0">
+                <img src="images/carrottrail.png" class="mb-5" alt="Kragebjerggaards ejere i gårdbutikken">
             </div>
         </div>
-    </div>
+    </section>
 
 
-    <div class="row bg-lysebrun">
-        <h1 class="montserrat text-center p-5" style="color: white">Events på Kragebjerggaard</h1>
+    <div class="row bg-lysebrun mt-5 mb-5">
+        <h2 class="montserrat text-center text-white p-5" style="font-size:">EVENTS PÅ KRAGEBJERGGAARD</h2>
         <div class="col-12 mb-5">
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
                 <div class="carousel-indicators">
@@ -131,13 +100,30 @@
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
-
         </div>
-
     </div>
 
 
-</nav>
+    <section class="container">
+        <div class="row mt-5 mb-5">
+            <div class="col-12 col-md-6 mt-5 mt-md-0">
+                <img src="images/farmmand.jpeg" class="mb-5" alt="Der bliver solgt varer i gårdbutikken">
+            </div>
+            <nav class="col-12 col-md-6">
+                <p class="montserrat ms-5 mt-3 me-5 mb-3">På vores gård har vi 167 køer, der alle sammen fortjener det bedste liv.
+                    Fordi, ikke nok med at økologi er vigtigt, betyder dyrevelfærd også meget for os. Derfor har vi dedikeret et stort
+                    areal af vores gård til at køerne frit kan græsse i de varme måneder. Når vejret bliver koldt har vi en stor varm
+                    kostald, hvor køerne får økologisk fodder og har massere af plads at gå rundt og hygge sig på.
+                    <br><br>
+                    Vi tror på at de bedste råvarer kommer når man arbejder sammen med naturen, så derfor vil du ofte kunne se en af
+                    vores mange gårdkatte løbe rundt på markerne.</p>
+                <div class="d-flex justify-content-end">
+                    <a type="button" class="btn btn-mørkebrun montserrat ms-5 mt-3 me-5 mb-5 text-white" data-bs-toggle="button" style="width: 200px" href="shop.php"> Gårdbutikken </a>
+                </div>
+            </nav>
+        </div>
+    </section>
+
 
     <?php include "includes/footer.php"; ?>
 
