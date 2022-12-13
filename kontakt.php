@@ -80,15 +80,15 @@
             </div>
             <div class="col-12 col-md-4 text-center mt-5 mb-5">
                 <img src="images/Gården.jpg" alt="Gård">
-                <a type="button" class="btn btn-mørkebrun montserrat ms-5 mt-3 me-5 mb-5 text-white" data-bs-toggle="button" style="width: 200px" href="kontakt.php"> Om gården </a>
+                <a type="button" class="btn btn-mørkebrun montserrat ms-5 mt-3 me-5 mb-5 text-white" data-bs-toggle="button" style="width: 200px" href="om_os.php"> Om gården </a>
             </div>
             <div class="col-12 col-md-4 text-center mt-5 mb-5">
                 <img src="images/mark3.jpeg" alt="Gård">
-                <a type="button" class="btn btn-mørkebrun montserrat ms-5 mt-3 me-5 mb-5 text-white" data-bs-toggle="button" style="width: 200px" href="kontakt.php"> Shop online </a>
+                <a type="button" class="btn btn-mørkebrun montserrat ms-5 mt-3 me-5 mb-5 text-white" data-bs-toggle="button" style="width: 200px" href="shop.php"> Shop online </a>
             </div>
             <div class="col-12 col-md-4 text-center mt-5 mb-5">
                 <img src="images/farmmand.jpeg" alt="Gård">
-                <a type="button" class="btn btn-mørkebrun montserrat ms-5 mt-3 me-5 mb-5 text-white" data-bs-toggle="button" style="width: 200px" href="kontakt.php"> Gårdbutikken </a>
+                <a type="button" class="btn btn-mørkebrun montserrat ms-5 mt-3 me-5 mb-5 text-white" data-bs-toggle="button" style="width: 200px" href="gaardbutikken.php"> Gårdbutikken </a>
             </div>
         </div>
     </div>
