@@ -7,9 +7,26 @@
 
 
 
-<footer class="text-white bg-mørkegrøn">
+<footer class="text-white ">
+    <div class="row bg-lysegrøn p-4 text-center">
+        <div class="col-6">
+            <h5 class="montserrat">TILMELD VORES NYHEDSBREV OG FÅ NYHEDER DIREKTE I DIN INDBAKKE</h5>
+        </div>
 
-        <div class="row ps-4 ps-md-5 pt-5 pe-4 pe-md-5 pb-5">
+        <div class="col-3">
+            <div class="mb-3">
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Din e-mail" style="width:100%">
+            </div>
+        </div>
+
+        <div class="col-3">
+            <button type="button" class="btn btn-lysebrun montserrat" data-bs-toggle="button" style="color: white" href="#">Tilmeld</button>
+        </div>
+
+    </div>
+
+
+        <div class="row ps-4 ps-md-5 pt-5 pe-4 pe-md-5 pb-5 bg-mørkegrøn">
 
             <div class="col-12 col-md-4 mb-5">
                 <h3 class="montserrat mt-5 mb-4" style="font-size: 1.5rem"> KRAVEBJERGGAARD </h3>
