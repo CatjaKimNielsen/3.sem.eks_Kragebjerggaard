@@ -12,10 +12,10 @@
         <div class="collapse navbar-collapse w-100 justify-content-end" id="navbarNavDropdown">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">Shop</a>
+                    <a class="nav-link" aria-current="page" href="shop.php">Shop</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">Gårdbutikken</a>
+                    <a class="nav-link" aria-current="page" href="gaardbutikken.php">Gårdbutikken</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" aria-current="page" href="om_os.php">Om os</a>
