@@ -44,7 +44,7 @@
 
     <section>
         <div class="container">
-            <div class="row py-4">
+            <div class="row py-4 py-sm-0">
             <div class="col-md-6 p-5">
                 <h2 class="title montserrat text-center p-5">Historie</h2>
                 <p class="text montserrat">
