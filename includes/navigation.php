@@ -2,8 +2,8 @@
 <nav class="navbar navbar-expand-lg navbar-dark position-fixed w-100 py-0" id="nav_bar">
 
     <div class="container-fluid bg-mørkegrøn ps-md-5 pt-2 pe-md-5 pb-2">
-        <a class="navbar-brand" href="index.php"> <img id="logo" src="images/coclologo.png" > </a>
-
+        <a class="navbar-brand" href="index.php"> <img id="logo" src="images/coclologo.png" ></a>
+        <a class="navbar-brand tangerine m-2 h3" aria-current="page" style="color: white"  href="index.php"><p class="h1">Kravebjerggaard</p></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
