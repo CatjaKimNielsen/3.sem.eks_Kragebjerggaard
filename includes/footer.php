@@ -1,6 +1,6 @@
 
 
-<footer class="text-white ">
+<footer class="text-white mt-5">
 
     <div class="row bg-lysegrøn p-4 text-center">
         <div class="col-12 col-md-6">
@@ -18,11 +18,11 @@
 
     <div class="row ps-4 ps-md-5 pt-5 pe-4 pe-md-5 pb-5 bg-mørkegrøn">
         <div class="col-12 col-lg-4 mb-5 px-5">
-            <h3 class="montserrat mt-5 mb-4" style="font-size: 1.5rem"> KRAGEBJERGGAARD </h3>
-            <p class="montserrat"> Kragebjergaardvej 7, 4296 Sorø <br><br> Tlf.: +45 71 72 73 74 <br> E-mail: kontakt@kragebjerggaard.dk</p>
+            <h3 class="montserrat mt-5 mb-4 text-center" style="font-size: 1.5rem"> KRAGEBJERGGAARD </h3>
+            <p class="montserrat text-center"> Kragebjergaardvej 7, 4296 Sorø <br><br> Tlf.: +45 71 72 73 74 <br> E-mail: kontakt@kragebjerggaard.dk</p>
         </div>
         <div class="col-12 col-lg-4 mb-5">
-            <h3 class="montserrat mt-5 mb-4 text-center" style="font-size: 1.5rem">GÅRDBUTIKKENS <br>ÅBNINGSTIDER </h3>
+            <h3 class="montserrat mt-5 mb-4 text-center" style="font-size: 1.5rem">GÅRDBUTIKKENS <br> ÅBNINGSTIDER </h3>
             <div class="row montserrat">
                 <div class="col-6  text-end">
                     <p>Mandag</p>
