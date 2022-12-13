@@ -48,7 +48,20 @@
     </div>
 
 
-    ...
+    <section class="container">
+        <div class="...">
+            <div class="filter pb-4 pb-md-5">
+                <div class="row">
+                    <div class="col-md-4 offset-md-4">
+                        <input class="form-control nameSearch" type="search" placeholder="Søg her ...">
+                    </div>
+                </div>
+            </div>
+            <div class="items">
+                <!--Her ligger produkterne fra databasen-->
+            </div>
+        </div>
+    </section>
 
 
     <?php include "includes/footer.php"; ?>
