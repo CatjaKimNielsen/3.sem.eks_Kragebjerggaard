@@ -34,16 +34,16 @@
 
     <?php include "includes/navigation.php"; ?>
 
-    <header>
 
 
-     <div class="Banner">
+
+     <div class="Banner py-sm-4">
     <img src="images/kragebjerggaard%20banner.png" class="py-5" alt="">
     </div>
-    </header>
+
 
     <section>
-        <div class="container py-1">
+        <div class="container">
             <div class="row py-4">
             <div class="col-md-6 p-5">
                 <h2 class="title montserrat text-center p-5">Historie</h2>
