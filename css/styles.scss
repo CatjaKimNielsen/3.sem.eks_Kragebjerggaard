@@ -32,15 +32,6 @@ img {
 	height: auto;
 }
 
-.products .items .card-img-top{
-	height: auto;
-	object-fit: cover;
-}
-
-.line {
-	border-top: 1px solid lightslategrey;
-	opacity: 30%;
-}
 
 .tangerine{
 	font-family: 'Tangerine', cursive;
@@ -50,7 +41,8 @@ img {
 	font-family: 'Montserrat', sans-serif;
 }
 
-#billede{
+
+#gaardbutik{
 	width: 60%;
 	display: block;
 	margin-left: auto;
@@ -90,6 +82,7 @@ img {
 #coverpic{
 	z-index: -2;
 }
+
 #nav_bar{
 	z-index: 2;
 }
@@ -99,5 +92,5 @@ img {
 }
 
 .Banner{
- padding-top: 2%;
+ padding-top: 80px;
 }
