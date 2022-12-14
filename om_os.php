@@ -40,7 +40,7 @@
 
     <div class="container-fluid">
         <div class="row">
-            <div class="Banner col-12 mt-5 mb-5">
+            <div class="Banner col-12 mt-5 mb-5 py-5">
                 <h1 class="tangerine text-center" style="font-size: 3.5rem">Om Kragebjerggaard</h1>
             </div>
         </div>
