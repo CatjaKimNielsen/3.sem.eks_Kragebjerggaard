@@ -46,28 +46,28 @@ foreach ($produkter as $produkt){
 
     </div>
     <div class="col-12 col-md-6">
-        <div class="col-12 py-5">
+        <div class="col-12 py-5 order-1">
             <h3>
                 <?php
                 echo $produkt->prodNavn;
                 ?>
             </h3>
         </div>
-        <div class="col-12">
+        <div class="col-12 order-3 order-md-2">
             <h5>
                 <?php
                 echo $produkt->prodUcategory;
                 ?>
             </h5>
         </div>
-        <div class="col-12 py-5">
+        <div class="col-12 py-5 order-4 order-md-3">
             <h5>
                 <?php
                 echo $produkt->prodBeskrivelse;
                 ?>
-            </h5
+            </h5>
         </div>
-        <div class="col-12 text-center py-5">
+        <div class="col-12 text-center py-5 order-2 order-md-4">
             <h5>
                 <?php
                 echo number_format($produkt->prodPris, 2, ",", "." ). " Kr";
@@ -75,8 +75,8 @@ foreach ($produkter as $produkt){
             </h5>
         </div>
 
-        <div class="col-12 items text-center">
-
+        <div class="col-12 items text-center order-5">
+            <button> en knap</button>
         </div>
         <?php
         }
@@ -92,7 +92,7 @@ foreach ($produkter as $produkt){
             <div class="filter p-5">
                 <div class="row">
                     <div class="col-md-4 offset-md-4">
-                        <h4 class="pt-3">Produkt navn </h4>
+                        <h4 class="pt-3">Produkt Havn </h4>
                         <input type="search" class="form-control nameSearch" placeholder="Søg">
                         <h4 class="pt-3">Produkt pris</h4>
                         <input type="search" class="form-control priceSearch" placeholder="Søg">
