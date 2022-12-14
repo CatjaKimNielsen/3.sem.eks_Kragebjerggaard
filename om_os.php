@@ -67,7 +67,7 @@
 
     <section class="container">
         <div class="row mt-5 mb-5">
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6 order-1 order-lg-2">
                 <h2 class="montserrat ms-5 mt-5 me-5" style="font-size: 1.5rem"> DYREVELFÆRD </h2>
                 <p class="montserrat ms-5 mt-3 me-5 mb-4">På Kragebjerggaard går vi meget op i vores dyrs trivsel og at de behandles
                     godt og lever under gode forhold.Vi arbejder dagligt på at dyrenes fysiologiske sundhedsmæssige  og adfærdsmæssige
@@ -76,7 +76,7 @@
                     frit rundt på lag af dybtstrøelse der udskiftes dagligt.</p>
                 <a type="button" class="btn btn-mørkebrun montserrat ms-5 mt-3 me-5 mb-5 text-white" data-bs-toggle="button" style="width: 200px" href="gaardbutikken.php"> Bestil varer </a>
             </div>
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6 order-2 order-lg-1">
                 <img src="images/Dyrevel.jpg" class="mb-5 mb-md-0" alt="Kragebjerggaards får i stalden">
             </div>
         </div>

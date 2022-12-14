@@ -36,9 +36,8 @@
 
 
     <?php include "includes/navigation.php"; ?>
-
-
-    <img src="images/ko.png" class="d-block w-100 py-5" id="coverpic" alt="køer">
+<div style="padding-top: 93px">
+    <img src="images/ko.png" class="d-block w-100" id="coverpic" alt="køer">
 
 
     <section class="container">
@@ -57,6 +56,8 @@
             </div>
         </div>
     </section>
+
+
 
 
     <section class="container">
@@ -78,7 +79,6 @@
             </nav>
         </div>
     </section>
-
 
     <div class="row bg-lysebrun mt-5 mb-5">
         <h2 class="montserrat text-center text-white p-5" style="font-size:">EVENTS PÅ KRAGEBJERGGAARD</h2>
@@ -123,7 +123,7 @@
             </div>
         </div>
     </div>
-
+</div>
 
     <?php include "includes/footer.php"; ?>
 
