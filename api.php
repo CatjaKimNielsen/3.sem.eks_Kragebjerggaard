@@ -23,7 +23,7 @@ $data = json_decode(file_get_contents('php://input'), true);
 header('Content-Type: application/json; charset=utf-8');
 
 if(isset($data["password"]) && $data["password"] == "KickPHP"){
-    $sql = "SELECT * FROM filmlister WHERE 1=1";
+    $sql = "SELECT * FROM produkter WHERE 1=1";
     $bind = [];
 
 
@@ -54,10 +54,10 @@ if(isset($data["password"]) && $data["password"] == "KickPHP"){
         $bind[":prodPris"] = $data["maxPrice"];
     }
 
-    $filmlister = $db -> sql($sql, $bind);
+    $produkter = $db -> sql($sql, $bind);
     header("HTTP/1.1 200 OK");
 
-    echo json_encode($filmlister);
+    echo json_encode($produkter);
 
 } else {
     header("HTTP/1.1 401 Unauthorized");

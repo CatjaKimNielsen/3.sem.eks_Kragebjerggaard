@@ -8,8 +8,8 @@ export default class Produkter {
         this.items = this.rootElem.querySelector('.items');
 
         this.nameSearch = this.filter.querySelector('.nameSearch');
-        this.scoreSearch = this.filter.querySelector('.scoreSearch');
-        this.genreSearch = this.filter.querySelector('.genreSearch');
+        this.priceSearch = this.filter.querySelector('.priceSearch');
+        this.categorySearch = this.filter.querySelector('.categorySearch');
     }
 
     async init(){
@@ -18,11 +18,11 @@ export default class Produkter {
             this.render();
         });
 
-        this.scoreSearch.addEventListener('input', () => {
+        this.priceSearch.addEventListener('input', () => {
             this.render();
         });
 
-        this.genreSearch.addEventListener('input', () => {
+        this.categorySearch.addEventListener('input', () => {
             this.render();
         });
 
@@ -42,11 +42,11 @@ export default class Produkter {
 
             col.innerHTML = `      
             <div class="card">
-                <img src="uploads/${item.prodBillede}" class="card-img-top">
+                <img src="images/${item.prodBillede}" class="card-img-top">
                 <div class="card-body">
                 <h5 class="card-title">${item.prodNavn}</h5>
-                <p class="card-text">${item.prodBeskrivelse}</p>
-                <a href="view.php?id=${item.prodId}" class="btn btn-primary text-white w-100">Se Film</a>
+                <p class="card-text">${item.prodPris}</p>
+                <a href="view.php?id=${item.prodId}" class="btn btn-primary text-white w-100">Se produkt</a>
                 </div>
             </div>
              
