@@ -42,32 +42,40 @@
 
     <div class="container-fluid">
         <div class="row">
-            <div class="Banner col-12 mt-5 mb-5">
+            <div class="Banner col-12 mt-5 mb-3">
                 <h1 class="tangerine text-center" style="font-size: 3.5rem">Økologiske varer direkte til din dør!</h1>
                 <p class="montserrat text-center"> Bestil i dag og få leveret i morgen</p>
             </div>
         </div>
     </div>
 
-    <div class="container">
 
+    <div class="container">
         <div class="produkter">
-            <div class="filter p-5">
+            <div class="filter p-5 mb-5">
                 <div class="row">
-                    <div class="col-md-4 offset-md-4">
-                        <h4 class="pt-3">Produkt navn </h4>
-                        <input type="search" class="form-control nameSearch" placeholder="Søg">
-                        <h4 class="pt-3">Produkt pris</h4>
-                        <input type="search" class="form-control priceSearch" placeholder="Søg">
-                        <h4 class="pt-3">Produkt kategory</h4>
-                        <input type="search" class="form-control categorySearch" placeholder="Søg">
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="col-12 col-md-4">
+                                <h2 class="pt-3 mb-2 montserrat" style="font-size: 1rem">Søg navn </h2>
+                                <input type="search" class="form-control nameSearch montserrat" placeholder="...">
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <h2 class="pt-3 mb-2 montserrat" style="font-size: 1rem">Søg pris</h2>
+                                <input type="search" class="form-control priceSearch montserrat" placeholder="...">
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <h2 class="pt-3 mb-2 montserrat" style="font-size: 1rem">Søg kategori</h2>
+                                <input type="search" class="form-control categorySearch montserrat" placeholder="...">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-              <div class="items">
-            </div>
+            <div class="items"></div>
         </div>
     </div>
+
 
     <?php include "includes/footer.php"; ?>
 
