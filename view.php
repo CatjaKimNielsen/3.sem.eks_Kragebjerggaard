@@ -30,59 +30,95 @@ $produkter = $db->sql("SELECT * FROM produkter WHERE prodId = :prodId", [":prodI
 <?php
 foreach ($produkter as $produkt){
 ?>
-<div style="padding-top: 93px">
-<div class="row mt-3">
-    <div class="col-12 col-md-6">
-        <h3>
-            <?php
-            echo $produkt->prodNavn;
-            ?>
-        </h3>
-    </div>
 
-    <div class="col-12 col-md-6">
-        <h5>
-            <?php
-            echo $produkt->prodBeskrivelse;
-            ?>
-        </h5>
-    </div>
 
-    <div class="row mt-5">
-        <div class="col-12 col-md-2">
-            <h5>
+<div style="padding-top: 150px">
+
+
+<div class="row mt-3 montserrat p-5">
+
+
+
+    <div class=" col-12 col-md-6">
+
+            <img src="images/<?php
+            echo $produkt->prodBillede;?>">
+
+    </div>
+    <div class="col-12 col-md-6">
+        <div class="col-12 py-5">
+            <h3>
                 <?php
-                echo number_format($produkt->prodPris, 2, ",", "." );
+                echo $produkt->prodNavn;
                 ?>
-            </h5>
+            </h3>
         </div>
-        <div class="col-12 col-md-2">
+        <div class="col-12">
             <h5>
                 <?php
                 echo $produkt->prodUcategory;
                 ?>
             </h5>
         </div>
-    </div>
-
-    <div class="row mt-5">
-        <div class="col-12 col-md-4">
-            <img src="images/<?php
-            echo $produkt->prodBillede;
-            ?>">
-        </div>
-        <div class="col-12 col-md-4">
+        <div class="col-12 py-5">
             <h5>
                 <?php
                 echo $produkt->prodBeskrivelse;
                 ?>
+            </h5
+        </div>
+        <div class="col-12 text-center py-5">
+            <h5>
+                <?php
+                echo number_format($produkt->prodPris, 2, ",", "." ). " Kr";
+                ?>
             </h5>
         </div>
-    <?php
-    }
-    ?>
+
+        <div class="col-12 items text-center">
+
+        </div>
+        <?php
+        }
+        ?>
+    </div>
+
+
+    </div>
+
+    <div class="container">
+
+        <div class="produkter">
+            <div class="filter p-5">
+                <div class="row">
+                    <div class="col-md-4 offset-md-4">
+                        <h4 class="pt-3">Produkt navn </h4>
+                        <input type="search" class="form-control nameSearch" placeholder="Søg">
+                        <h4 class="pt-3">Produkt pris</h4>
+                        <input type="search" class="form-control priceSearch" placeholder="Søg">
+                        <h4 class="pt-3">Produkt kategory</h4>
+                        <input type="search" class="form-control categorySearch" placeholder="Søg">
+                    </div>
+                </div>
+            </div>
+
+            <div class="items">
+
+            </div>
+        </div>
+    </div>
+
+
+
+
     </div>
         <?php include "includes/footer.php"; ?>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script type="module">
+    import Produkter from "./js/produkter.js"
+
+    const produkter = new Produkter();
+    produkter.init();
+</script>
 </body>
 </html>
