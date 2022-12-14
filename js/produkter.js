@@ -43,10 +43,10 @@ export default class Produkter {
             col.innerHTML = `      
             <div class="card">
                 <img src="images/${item.prodBillede}" class="card-img-top">
-                <div class="card-body">
-                <h5 class="card-title">${item.prodNavn}</h5>
-                <p class="card-text">${item.prodPris}</p>
-                <a href="view.php?id=${item.prodId}" class="btn btn-primary text-white w-100">Se produkt</a>
+                <div class="card-body montserrat">
+                <h5 class="card-title text-center">${item.prodNavn}</h5>
+                <p class="card-text text-center">${item.prodPris}</p>
+                <a href="view.php?id=${item.prodId}" class="btn btn-mørkebrun text-white w-100">Se produkt</a>
                 </div>
             </div>
              
