@@ -47,6 +47,28 @@
         </div>
     </div>
 
+    <div class="container">
+
+        <div class="produkter">
+            <div class="filter p-5">
+                <div class="row">
+                    <div class="col-md-4 offset-md-4">
+                        <h4 class="pt-3">Film Navn</h4>
+                        <input type="search" class="form-control nameSearch" placeholder="Søg">
+                        <h4 class="pt-3">Film Score</h4>
+                        <input type="search" class="form-control priceSearch" placeholder="Søg">
+                        <h4 class="pt-3">Film Genre</h4>
+                        <input type="search" class="form-control categorySearch" placeholder="Søg">
+                    </div>
+                </div>
+            </div>
+
+            <div class="items">
+
+            </div>
+        </div>
+    </div>
+
 
     <section class="container">
         <div class="...">
@@ -68,6 +90,13 @@
 
 
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="module">
+        import Filmlister from "./js/filmlister.js"
+
+        const filmlister = new Filmlister();
+        filmlister.init();
+    </script>
+
 
 
 </body>
