@@ -28,10 +28,9 @@ $produkter = $db->sql("SELECT * FROM produkter WHERE prodId = :prodId", [":prodI
 
 <?php include "includes/navigation.php"; ?>
 <?php
-
 foreach ($produkter as $produkt){
 ?>
-
+<div style="padding-top: 93px">
 <div class="row mt-3">
     <div class="col-12 col-md-6">
         <h3>
@@ -82,7 +81,7 @@ foreach ($produkter as $produkt){
     <?php
     }
     ?>
-
+    </div>
         <?php include "includes/footer.php"; ?>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
