@@ -29,18 +29,18 @@ if(isset($data["password"]) && $data["password"] == "KickPHP"){
 
     if(!empty($data["nameSearch"])){
         $sql .= " AND prodNavn LIKE CONCAT('%', :prodNavn, '%') ";
-        $bind[":prodNavn"] = $data["prodSearch"];
+        $bind[":prodNavn"] = $data["nameSearch"];
     }
 
     if(!empty($data["priceSearch"])){
-        $sql .= " AND prodPrice = :prodPrice";
-        $bind[":prodPrice"] = $data["prodPrice"];
+        $sql .= " AND prodPris = :prodPris";
+        $bind[":prodPris"] = $data["priceSearch"];
     }
 
 
     if(!empty($data["categorySearch"])){
         $sql .= " AND prodCategory Like CONCAT('%', :prodCategory, '%') ";
-        $bind[":prodCategory"] = $data["prodCategory"];
+        $bind[":prodCategory"] = $data["categorySearch"];
     }
 
 

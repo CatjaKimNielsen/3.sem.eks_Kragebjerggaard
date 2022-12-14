@@ -21,6 +21,7 @@ $produkter = $db->sql("SELECT * FROM produkter WHERE prodId = :prodId", [":prodI
     <link href="css/styles.css" rel="stylesheet" type="text/css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/57d07bd12e.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -53,13 +54,6 @@ foreach ($produkter as $produkt){
             <h5>
                 <?php
                 echo number_format($produkt->prodPris, 2, ",", "." );
-                ?>
-            </h5>
-        </div>
-        <div class="col-12 col-md-2">
-            <h5>
-                <?php
-                echo $produkt->prodCategory;
                 ?>
             </h5>
         </div>
