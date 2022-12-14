@@ -59,6 +59,27 @@
     </section>
 
 
+    <section class="container">
+        <div class="row mt-5 mb-5">
+            <div class="col-12 col-md-6 mt-5 mt-md-0">
+                <img src="images/farmmand.jpeg" class="mb-5" alt="Der bliver solgt varer i gårdbutikken">
+            </div>
+            <nav class="col-12 col-md-6">
+                <p class="montserrat ms-5 mt-3 me-5 mb-3">På vores gård har vi 167 køer, der alle sammen fortjener det bedste liv.
+                    Fordi, ikke nok med at økologi er vigtigt, betyder dyrevelfærd også meget for os. Derfor har vi dedikeret et stort
+                    areal af vores gård til at køerne frit kan græsse i de varme måneder. Når vejret bliver koldt har vi en stor varm
+                    kostald, hvor køerne får økologisk fodder og har massere af plads at gå rundt og hygge sig på.
+                    <br><br>
+                    Vi tror på at de bedste råvarer kommer når man arbejder sammen med naturen, så derfor vil du ofte kunne se en af
+                    vores mange gårdkatte løbe rundt på markerne.</p>
+                <div class="d-flex justify-content-end">
+                    <a type="button" class="btn btn-mørkebrun montserrat ms-5 mt-3 me-5 mb-5 text-white" data-bs-toggle="button" style="width: 200px" href="shop.php"> Gårdbutikken </a>
+                </div>
+            </nav>
+        </div>
+    </section>
+
+
     <div class="row bg-lysebrun mt-5 mb-5">
         <h2 class="montserrat text-center text-white p-5" style="font-size:">EVENTS PÅ KRAGEBJERGGAARD</h2>
         <div class="col-12 mb-5">
@@ -102,27 +123,6 @@
             </div>
         </div>
     </div>
-
-
-    <section class="container">
-        <div class="row mt-5 mb-5">
-            <div class="col-12 col-md-6 mt-5 mt-md-0">
-                <img src="images/farmmand.jpeg" class="mb-5" alt="Der bliver solgt varer i gårdbutikken">
-            </div>
-            <nav class="col-12 col-md-6">
-                <p class="montserrat ms-5 mt-3 me-5 mb-3">På vores gård har vi 167 køer, der alle sammen fortjener det bedste liv.
-                    Fordi, ikke nok med at økologi er vigtigt, betyder dyrevelfærd også meget for os. Derfor har vi dedikeret et stort
-                    areal af vores gård til at køerne frit kan græsse i de varme måneder. Når vejret bliver koldt har vi en stor varm
-                    kostald, hvor køerne får økologisk fodder og har massere af plads at gå rundt og hygge sig på.
-                    <br><br>
-                    Vi tror på at de bedste råvarer kommer når man arbejder sammen med naturen, så derfor vil du ofte kunne se en af
-                    vores mange gårdkatte løbe rundt på markerne.</p>
-                <div class="d-flex justify-content-end">
-                    <a type="button" class="btn btn-mørkebrun montserrat ms-5 mt-3 me-5 mb-5 text-white" data-bs-toggle="button" style="width: 200px" href="shop.php"> Gårdbutikken </a>
-                </div>
-            </nav>
-        </div>
-    </section>
 
 
     <?php include "includes/footer.php"; ?>
