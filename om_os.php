@@ -6,9 +6,10 @@
     <meta charset="utf-8">
 
     <title> Om os | Kragebjerggaard </title>
-    <meta name="description" content="...">
+    <meta name="description" content="Hos os på Kragebjerggaard har vi produceret vores egne økologiske grøntsager, haft vores egne dyr
+    og produceret egne mælkeprodukter på vores mejeri, siden 1961.">
     <meta name="robots" content="All">
-    <meta name="author" content="...">
+    <meta name="author" content="Catja, Katarina, Helene, Aisha og Safa">
     <meta name="copyright" content="Information om copyright">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -16,7 +17,8 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="...">
     <meta property="og:image" content="...">
-    <meta property="og:description" content="...">
+    <meta property="og:description" content="Hos os på Kragebjerggaard har vi produceret vores egne økologiske grøntsager, haft vores
+    egne dyr og produceret egne mælkeprodukter på vores mejeri, siden 1961.">
     <meta property="og:locale" content="da.DK">
 
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">

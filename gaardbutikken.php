@@ -6,7 +6,8 @@
     <meta charset="utf-8">
 
     <title> Gårdbutikken | Kragebjerggaard </title>
-    <meta name="description" content="...">
+    <meta name="description" content="Hos Kragebjerggaard gårdbutik kan du købe alle vores økologiske varer - alt fra vores grøntsager
+    til mælk og færdigproduceret mælkeprodukter fra vores eget mejeri.">
     <meta name="robots" content="All">
     <meta name="author" content="Catja, Katarina, Helene, Aisha og Safa">
     <meta name="copyright" content="Information om copyright">
@@ -16,7 +17,8 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="...">
     <meta property="og:image" content="...">
-    <meta property="og:description" content="...">
+    <meta property="og:description" content="Hos Kragebjerggaard gårdbutik kan du købe alle vores økologiske varer - alt fra vores
+    grøntsager til mælk og færdigproduceret mælkeprodukter fra vores eget mejeri.">
     <meta property="og:locale" content="da.DK">
 
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">

@@ -6,9 +6,10 @@
     <meta charset="utf-8">
 
     <title> Kontakt | Kragebjerggaard </title>
-    <meta name="description" content="...">
+    <meta name="description" content="Du er altid velkommen til at komme og besøge vores økologiske Kragebjerggaard indefor vores
+    åbningstider, men du er også mere end velkommen til at kontakte os på mail eller telefon.">
     <meta name="robots" content="All">
-    <meta name="author" content="...">
+    <meta name="author" content="Catja, Katarina, Helene, Aisha og Safa">
     <meta name="copyright" content="Information om copyright">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -16,7 +17,8 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="...">
     <meta property="og:image" content="...">
-    <meta property="og:description" content="...">
+    <meta property="og:description" content="Du er altid velkommen til at komme og besøge vores økologiske Kragebjerggaard indefor vores
+    åbningstider, men du er også mere end velkommen til at kontakte os på mail eller telefon.">
     <meta property="og:locale" content="da.DK">
 
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
