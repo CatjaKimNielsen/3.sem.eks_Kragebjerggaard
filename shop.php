@@ -62,9 +62,7 @@
                     </div>
                 </div>
             </div>
-
-            <div class="items">
-
+              <div class="items">
             </div>
         </div>
     </div>
