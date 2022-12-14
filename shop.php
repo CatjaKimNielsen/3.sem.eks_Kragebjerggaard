@@ -47,27 +47,39 @@
         </div>
     </div>
 
+    <div class="container">
 
-    <section class="container">
-        <div class="...">
-            <div class="filter pb-4 pb-md-5">
+        <div class="produkter">
+            <div class="filter p-5">
                 <div class="row">
                     <div class="col-md-4 offset-md-4">
-                        <input class="form-control nameSearch" type="search" placeholder="Søg her ...">
+                        <h4 class="pt-3">Produkt navn </h4>
+                        <input type="search" class="form-control nameSearch" placeholder="Søg">
+                        <h4 class="pt-3">Produkt pris</h4>
+                        <input type="search" class="form-control priceSearch" placeholder="Søg">
+                        <h4 class="pt-3">Produkt kategory</h4>
+                        <input type="search" class="form-control categorySearch" placeholder="Søg">
                     </div>
                 </div>
             </div>
+
             <div class="items">
-                <!--Her ligger produkterne fra databasen-->
+
             </div>
         </div>
-    </section>
-
+    </div>
 
     <?php include "includes/footer.php"; ?>
 
 
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="module">
+        import Produkter from "./js/produkter.js"
+
+        const produkter = new Produkter();
+        produkter.init();
+    </script>
+
 
 
 </body>
