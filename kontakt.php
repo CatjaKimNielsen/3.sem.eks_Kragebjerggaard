@@ -9,8 +9,9 @@
     <meta name="description" content="Du er altid velkommen til at komme og besøge vores økologiske Kragebjerggaard indefor vores
     åbningstider, men du er også mere end velkommen til at kontakte os på mail eller telefon.">
     <meta name="robots" content="All">
-    <meta name="author" content="Catja, Katarina, Helene, Aisha og Safa">
+    <meta name="author" content="Catja, Katarina, Helene, Aisha og Safaa">
     <meta name="copyright" content="Information om copyright">
+    <meta name="keywords" content="Kragebjerggård, økologisk">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <meta property="og:title" content=" Kragebjerggaard | Kontakt ">

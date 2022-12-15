@@ -9,8 +9,9 @@
     <meta name="description" content="Hos Kragebjerggaard gårdbutik kan du købe alle vores økologiske varer - alt fra vores grøntsager
     til mælk og færdigproduceret mælkeprodukter fra vores eget mejeri.">
     <meta name="robots" content="All">
-    <meta name="author" content="Catja, Katarina, Helene, Aisha og Safa">
+    <meta name="author" content="Catja, Katarina, Helene, Aisha og Safaa">
     <meta name="copyright" content="Information om copyright">
+    <meta name="keywords" content="Kragebjerggård, Kragebjerggård gårdbutik, økologisk, mejeri, Kragebjerggård mejeri, økologisk mælk, gårdbutik">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <meta property="og:title" content=" Kragebjerggaard | Gårdbutikken ">
