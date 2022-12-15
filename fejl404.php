@@ -34,27 +34,31 @@
     <script src="https://kit.fontawesome.com/57d07bd12e.js" crossorigin="anonymous"></script>
 
     <link rel="shortcut icon" href="images/coclologo.png" type="image/x-icon" alt="Logo">
+
+
+
 </head>
 
 <body>
 
 
     <?php include "includes/navigation.php"; ?>
-<div style="padding-top: 93px">
+<div style="padding-top: 60px">
 
 
-    <section class="container p-5 text-center align-items-center">
-        <div class="row p-5 m-5">
-            <nav class="col-12">
-                <h1 class="montserrat ms-5 mt-5 me-5 fw-bold" style="font-size: 1.5rem"> Hov!</h1>
-                <p class="montserrat ms-5 mt-3 me-5 mb-3 fw-bold">Det ser ud til at der er en ko på isen! <br>
+    <section class="container px-5 pt-5 text-center align-items-center">
+        <div class="row px-5 pt-5 mx-5 mt-5">
+            <nav class="col-12 col-md-6 bg-lysebrun rounded-5">
+                <h1 class="montserrat ms-5 mt-5 me-5 fw-bold text-hvid p-5 "> Hov!</h1>
+                <h1 class="montserrat ms-5 mt-3 me-5 mb-3 fw-bold text-hvid" style="font-size: 1.5rem">Det ser ud til, <br> at der er en ko på isen! <br><br>
                     Klik her den for at vende tilbage til forsiden:
-                </p>
-                <a type="button" class="btn btn-mørkebrun montserrat ms-5 mt-3 me-5 mb-5 text-white" data-bs-toggle="button" style="width: 200px" href="index.php"> Vend tilbage til forsiden </a>
+                </h1>
+                <a type="button" class="btn btn-mørkebrun montserrat ms-5 mt-5 me-5 mb-5 text-white fw-bold" data-bs-toggle="button" style="width: 200px" href="index.php"> Vend tilbage til forsiden </a>
             </nav>
-            <div class="col-12 p-5 justify-content-center">
-                <img src="images/kois.png" class="m-5 p-5" alt="Ko på is">
+            <div class="col-12 col-md-6 ">
+                <img src="images/kois.png" class="m-5 border-3" alt="Ko på is">
             </div>
+
 
         </div>
     </section>
