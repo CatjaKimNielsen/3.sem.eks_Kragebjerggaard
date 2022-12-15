@@ -31,7 +31,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Tangerine&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/57d07bd12e.js" crossorigin="anonymous"></script>
 
-
+    <link rel="shortcut icon" href="images/coclologo.png" type="image/x-icon">
 </head>
 
 <body>
