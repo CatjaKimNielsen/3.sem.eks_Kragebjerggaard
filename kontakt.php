@@ -45,7 +45,7 @@
         <div class="row">
             <div class="Banner col-12 mt-5 mb-5">
                 <h1 class="tangerine text-center" style="font-size: 3.5rem"> Kontakt os </h1>
-                <p class="montserrat text-center"> Vi bestræer os på, at svare indenfor 24 timer.</p>
+                <p class="montserrat text-center"> Vi bestræber os på, at svare indenfor 24 timer.</p>
             </div>
         </div>
     </div>
