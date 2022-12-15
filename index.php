@@ -6,9 +6,10 @@
     <meta charset="utf-8">
 
     <title> Kragebjerggaard | Økologisk gård </title>
-    <meta name="description" content="...">
+    <meta name="description" content="Hos Kragebjerggaard sælger vi kun økologiske grøntsager og mælkeprodukter fra egne marker, dyr
+    og mejeri. De økologiske gårdvarer kan købes i vores gårdbutik og shoppes online med levering til døren.">
     <meta name="robots" content="All">
-    <meta name="author" content="...">
+    <meta name="author" content="Catja, Katarina, Helene, Aisha og Safa">
     <meta name="copyright" content="Information om copyright">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -16,7 +17,8 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="...">
     <meta property="og:image" content="...">
-    <meta property="og:description" content="...">
+    <meta property="og:description" content="Hos Kragebjerggaard sælger vi kun økologiske grøntsager og mælkeprodukter fra egne marker,
+    dyr og mejeri. De økologiske gårdvarer kan købes i vores gårdbutik og shoppes online med levering til døren.">
     <meta property="og:locale" content="da.DK">
 
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
