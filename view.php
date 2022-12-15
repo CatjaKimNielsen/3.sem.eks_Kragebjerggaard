@@ -76,7 +76,7 @@ foreach ($produkter as $produkt){
         </div>
 
         <div class="col-12 items text-center order-5">
-            <button> en knap</button>
+            <button style="background-color: #96766B;" class="text-white border-light px-5 py-1 rounded"> Tilføj til kurv </button>
         </div>
         <?php
         }
@@ -85,6 +85,16 @@ foreach ($produkter as $produkt){
 
 
     </div>
+
+
+
+
+
+
+
+
+
+
 
     <div class="container">
 
