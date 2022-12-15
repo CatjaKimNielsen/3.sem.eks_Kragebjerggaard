@@ -77,11 +77,11 @@
     </div>
 
 
-    <div class="row">
-        <div class="col-lg-5 col-sm-12  p-5">
+    <div class="row mx-5 p-5">
+        <div class="col-lg-6 col-sm-12 ">
             <img src="images/milktrail.png" id="shop" alt="Mælkens vej">
         </div>
-        <div class="col-lg-5 col-sm-12 montserrat p-5" id="shoptekst">
+        <div class="col-lg-6 col-sm-12 montserrat p-5" id="shoptekst">
             <p>
                 Levering til døren: <br>
                 <br>
