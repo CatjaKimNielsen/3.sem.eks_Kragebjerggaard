@@ -77,6 +77,27 @@
     </div>
 
 
+    <div class="row">
+        <div class="col-lg-5 col-sm-12  p-5">
+            <img src="images/milktrail.png" id="shop" alt="Mælkens vej">
+        </div>
+        <div class="col-lg-5 col-sm-12 montserrat p-5" id="shoptekst">
+            <p>
+                Levering til døren: <br>
+                <br>
+                Hos Kravebjerggaard leverer vi dine mejeriprodukter direkte til døren, så du kan få fornøjelsen af at opleve det naturlige gårdliv hjemme i din stue!
+                Vores produkter er økologiske og vi garanterer at den er så frisk at du kan mærke vinden i hårdet.
+                Vi har friskhedsgaranti på vores mælk, og kan garanterer at den mælk du modtager derhjemme ikke er mere end 24 timer fra at være blevet malket.
+                Vi leverer til alle bydele og alle etager, så du kan roligt bestille.
+                <br> <br>
+            <p class="text-center" style=" font-weight: bold"> Man skal ikke græde over spildt mælk... <br>
+                Medmindre det er Kragebjerggaard mælk. </p>
+            </p>
+        </div>
+
+    </div>
+
+
     <?php include "includes/footer.php"; ?>
 
 
