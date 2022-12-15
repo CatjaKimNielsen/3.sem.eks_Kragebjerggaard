@@ -16,6 +16,7 @@ $produkter = $db->sql("SELECT * FROM produkter WHERE prodId = :prodId", [":prodI
     <meta name="robots" content="All">
     <meta name="author" content="Udgiver">
     <meta name="copyright" content="Information om copyright">
+    <meta name="keywords" content="Kragebjerggård, økologisk, økologiske grøntsager, levering til døren, økologisk mælk">
 
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">

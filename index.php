@@ -9,8 +9,9 @@
     <meta name="description" content="Hos Kragebjerggaard sælger vi kun økologiske grøntsager og mælkeprodukter fra egne marker, dyr
     og mejeri. De økologiske gårdvarer kan købes i vores gårdbutik og shoppes online med levering til døren.">
     <meta name="robots" content="All">
-    <meta name="author" content="Catja, Katarina, Helene, Aisha og Safa">
+    <meta name="author" content="Catja, Katarina, Helene, Aisha og Safaa">
     <meta name="copyright" content="Information om copyright">
+    <meta name="keywords" content="Kragebjerggård, økologiske grøntsager, økologiske grøntsager til døren, mejeri, økologisk mælk, gårdbutik">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <meta property="og:title" content=" Kragebjerggaard | Økologisk gård ">

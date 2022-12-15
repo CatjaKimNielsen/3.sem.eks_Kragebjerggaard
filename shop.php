@@ -7,10 +7,11 @@
 
     <title> Shop | Kragebjerggaard </title>
     <meta name="description" content="Hos Kragebjerggaard giver vi dig muligheden for, at bestille vores økologiske grøntsager,
-    økologiske mælke og økologiske mælkeprodukter i vores online gårdbutik med levering direkte til din dør derhjemme.">
+    økologiske mælk og økologiske mælkeprodukter i vores online gårdbutik med levering direkte til din dør derhjemme.">
     <meta name="robots" content="All">
-    <meta name="author" content="Catja, Katarina, Helene, Aisha og Safa">
+    <meta name="author" content="Catja, Katarina, Helene, Aisha og Safaa">
     <meta name="copyright" content="Information om copyright">
+    <meta name="keywords" content="Kragebjerggård, økologiske grøntsager, økologisk mælk, online gårdbutik, gårdbutik">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <meta property="og:title" content=" Kragebjerggaard | Shop ">
