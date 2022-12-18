@@ -51,26 +51,12 @@
     </div>
 
 
-    <div class="container">
+    <div class="container mb-5">
         <div class="produkter">
-            <div class="filter p-5 mb-5">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="row">
-                            <div class="col-12 col-md-4">
-                                <h2 class="pt-3 mb-2 montserrat" style="font-size: 1rem">Søg navn </h2>
-                                <input type="search" class="form-control nameSearch montserrat" placeholder="...">
-                            </div>
-                            <div class="col-12 col-md-4">
-                                <h2 class="pt-3 mb-2 montserrat" style="font-size: 1rem">Søg pris</h2>
-                                <input type="search" class="form-control priceSearch montserrat" placeholder="...">
-                            </div>
-                            <div class="col-12 col-md-4">
-                                <h2 class="pt-3 mb-2 montserrat" style="font-size: 1rem">Søg kategori</h2>
-                                <input type="search" class="form-control categorySearch montserrat" placeholder="...">
-                            </div>
-                        </div>
-                    </div>
+            <div class="filter p-5 mb-3">
+                <div class="col-12 col-md-5">
+                    <h2 class="pt-3 mb-2 montserrat" style="font-size: 1rem">Søg navn, pris eller kategori</h2>
+                    <input type="search" class="search form-control montserrat" placeholder="...">
                 </div>
             </div>
             <div class="items"></div>
@@ -82,18 +68,15 @@
         <div class="col-lg-6 col-sm-12 ">
             <img src="images/milktrail.png" id="shop" alt="Mælkens vej">
         </div>
-        <div class="col-lg-6 col-sm-12 montserrat p-5" id="shoptekst">
-            <p>
-                Levering til døren: <br>
-                <br>
-                Hos Kravebjerggaard leverer vi dine mejeriprodukter direkte til døren, så du kan få fornøjelsen af at opleve det naturlige gårdliv hjemme i din stue!
-                Vores produkter er økologiske og vi garanterer at den er så frisk at du kan mærke vinden i hårdet.
-                Vi har friskhedsgaranti på vores mælk, og kan garanterer at den mælk du modtager derhjemme ikke er mere end 24 timer fra at være blevet malket.
-                Vi leverer til alle bydele og alle etager, så du kan roligt bestille.
-                <br> <br>
+        <div class="col-lg-6 col-sm-12 montserrat pb-5" id="shoptekst">
+            <h2 class="montserrat me-5" style="font-size: 1.5rem"> LEVERING TIL DØREN </h2>
+            <p class="montserrat mt-3 me-5 mb-4"> Hos Kravebjerggaard leverer vi dine mejeriprodukter direkte til døren, så du kan få
+                fornøjelsen af at opleve det naturlige gårdliv hjemme i din stue! Vores produkter er økologiske og vi garanterer
+                at den er så frisk at du kan mærke vinden i hårdet. Vi har friskhedsgaranti på vores mælk, og kan garanterer at
+                den mælk du modtager derhjemme ikke er mere end 24 timer fra at være blevet malket. Vi leverer til alle bydele og
+                alle etager, så du kan roligt bestille.
             <p class="text-center" style=" font-weight: bold"> Man skal ikke græde over spildt mælk... <br>
                 Medmindre det er Kragebjerggaard mælk. </p>
-            </p>
         </div>
 
     </div>

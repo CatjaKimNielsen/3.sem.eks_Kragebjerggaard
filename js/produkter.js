@@ -7,22 +7,12 @@ export default class Produkter {
         this.filter = this.rootElem.querySelector('.filter');
         this.items = this.rootElem.querySelector('.items');
 
-        this.nameSearch = this.filter.querySelector('.nameSearch');
-        this.priceSearch = this.filter.querySelector('.priceSearch');
-        this.categorySearch = this.filter.querySelector('.categorySearch');
+        this.search = this.filter.querySelector('.search');
     }
 
     async init(){
 
-        this.nameSearch.addEventListener('input', () => {
-            this.render();
-        });
-
-        this.priceSearch.addEventListener('input', () => {
-            this.render();
-        });
-
-        this.categorySearch.addEventListener('input', () => {
+        this.search.addEventListener('input', () => {
             this.render();
         });
 
@@ -44,8 +34,8 @@ export default class Produkter {
             <div class="card">
                 <img src="images/${item.prodBillede}" class="card-img-top">
                 <div class="card-body">
-                <h5 class="card-title text-center montserrat">${item.prodNavn}</h5>
-                <p class="card-text text-center montserrat">${item.prodPris}</p>
+                <h1 class="card-title text-center montserrat" style="font-size: 1.3rem">${item.prodNavn}</h1>
+                <p class="card-text text-center montserrat mb-3">${item.prodPris} kr.</p>
                 <a href="view.php?id=${item.prodId}" class="btn btn-mørkebrun text-white montserrat w-100">Se produkt</a>
                 </div>
             </div>
@@ -59,9 +49,7 @@ export default class Produkter {
     }
 
     async getData(){
-        this.data.nameSearch = this.nameSearch.value;
-        this.data.priceSearch = this.priceSearch.value;
-        this.data.categorySearch = this.categorySearch.value;
+        this.data.search = this.search.value;
 
         const response = await fetch('api.php', {
             method:"POST",
