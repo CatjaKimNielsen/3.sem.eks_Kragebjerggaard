@@ -7,20 +7,18 @@
     <meta charset="utf-8">
 
     <title> Kragebjerggaard | Fejl404 </title>
-    <meta name="description" content="Hos Kragebjerggaard sælger vi kun økologiske grøntsager og mælkeprodukter fra egne marker, dyr
-    og mejeri. De økologiske gårdvarer kan købes i vores gårdbutik og shoppes online med levering til døren.">
+    <meta name="description" content="">
     <meta name="robots" content="All">
     <meta name="author" content="Catja, Katarina, Helene, Aisha og Safaa">
     <meta name="copyright" content="Information om copyright">
     <meta name="keywords" content="Kragebjerggård, økologiske grøntsager, økologiske grøntsager til døren, mejeri, økologisk mælk, gårdbutik">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta property="og:title" content=" Kragebjerggaard | Økologisk gård ">
+    <meta property="og:title" content=" Kragebjerggaard | Fejl404 ">
     <meta property="og:type" content="website">
     <meta property="og:url" content="...">
     <meta property="og:image" content="...">
-    <meta property="og:description" content="Hos Kragebjerggaard sælger vi kun økologiske grøntsager og mælkeprodukter fra egne marker,
-    dyr og mejeri. De økologiske gårdvarer kan købes i vores gårdbutik og shoppes online med levering til døren.">
+    <meta property="og:description" content="">
     <meta property="og:locale" content="da.DK">
 
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
@@ -43,29 +41,24 @@
 
 
     <?php include "includes/navigation.php"; ?>
-<div style="padding-top: 60px">
 
 
-    <section class="container px-5 pt-5 text-center align-items-center">
-        <div class="row px-5 pt-5 mx-5 mt-5">
-            <nav class="col-12 col-md-6 bg-lysebrun rounded-5">
-                <h1 class="montserrat ms-5 mt-5 me-5 fw-bold text-hvid p-5 "> Hov!</h1>
-                <h1 class="montserrat ms-5 mt-3 me-5 mb-3 fw-bold text-hvid" style="font-size: 1.5rem">Det ser ud til, <br> at der er en ko på isen! <br><br>
-                    Klik her den for at vende tilbage til forsiden:
-                </h1>
-                <a type="button" class="btn btn-mørkebrun montserrat ms-5 mt-5 me-5 mb-5 text-white fw-bold" data-bs-toggle="button" style="width: 200px" href="index.php"> Vend tilbage til forsiden </a>
-            </nav>
-            <div class="col-12 col-md-6 ">
-                <img src="images/kois.png" class="m-5 border-3" alt="Ko på is">
+    <div style="padding-top: 160px">
+
+
+    <section class="container text-center align-items-center">
+        <div class="row mt-3 ps-5 pe-5 mb-5">
+            <div class="col-12 col-md-6 pb-5 bg-lysebrun rounded-5">
+                <h1 class="montserrat pt-5 fw-bold text-hvid"> Hov!</h1>
+                <p class="montserrat pt-5 pb-3 fw-bold text-hvid" style="font-size: 1.2rem">Det ser ud til, <br> at der er en ko på isen!</p>
+                <p class="montserrat pt-5 pb-3 fw-bold text-hvid" style="font-size: 1.2rem">Klik her for, at vende tilbage til forsiden:</p>
+                <a type="button" class="btn btn-mørkebrun montserrat mt-3 mb-5 text-white" data-bs-toggle="button" style="width: 200px" href="index.php"> Tilbage til forsiden </a>
             </div>
-
-
+            <div class="col-12 col-md-6 ps-5 pb-5">
+                <img src="images/kois.png" class="border-3" alt="Ko på is">
+            </div>
         </div>
     </section>
-
-
-
-
 
 
     <?php include "includes/footer.php"; ?>
