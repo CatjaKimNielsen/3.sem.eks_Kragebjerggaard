@@ -14,17 +14,7 @@
         </div>
     </div>
 
-    <div class="row ps-4 ps-md-5 pt-5 pe-4 pe-md-5 pb-5 bg-mørkegrøn">
-        <div class="col-12 col-lg-4">
-            <a href="https://www.foedevarestyrelsen.dk/Leksikon/Sider/EU_okologilogo.aspx" > <img src="images/eu_blad.png" alt="EU's grønne blad" id="ekslogo"> </a>
-        </div>
-        <div class="col-12 col-lg-4">
-            <a href="https://www.foedevarestyrelsen.dk/Leksikon/Sider/%C3%98-m%C3%A6rket.aspx"> <img src="images/Logo_Statskontrolleret%20Økologisk_Sort_JPG.jpg" alt="Statensøkologi" id="ekslogo"> </a>
-        </div>
-        <div class="col-12 col-lg-4">
-            <a href="https://www.findsmiley.dk/Sider/Forside.aspx"> <img src="images/mainSmiley.png"  alt="Smiley rapport" id="ekslogo"> </a>
-        </div>
-    </div>
+
     <div class="row ps-4 ps-md-5 pt-5 pe-4 pe-md-5 pb-5 bg-mørkegrøn">
         <div class="col-12 col-lg-4 mb-5 px-5">
             <h3 class="montserrat mt-5 mb-4 text-center" style="font-size: 1.5rem"> KRAGEBJERGGAARD </h3>
@@ -59,6 +49,18 @@
                 <i class="fab fa-instagram fa-3x p-1"></i>
                 <i class="fab fa-facebook-square fa-3x p-1"></i>
                 <i class="fab fa-facebook-messenger fa-3x p-1"></i>
+            </div>
+        </div>
+
+        <div class="row ps-4 ps-md-5 pt-5 pe-4 pe-md-5 pb-5 bg-mørkegrøn">
+            <div class="col-12 col-lg-4">
+                <a href="https://www.foedevarestyrelsen.dk/Leksikon/Sider/EU_okologilogo.aspx" > <img src="images/eu_blad.png" alt="EU's grønne blad" id="ekslogo"> </a>
+            </div>
+            <div class="col-12 col-lg-4">
+                <a href="https://www.foedevarestyrelsen.dk/Leksikon/Sider/%C3%98-m%C3%A6rket.aspx"> <img src="images/Logo_Statskontrolleret%20Økologisk_Sort_JPG.jpg" alt="Statensøkologi" id="ekslogo"> </a>
+            </div>
+            <div class="col-12 col-lg-4">
+                <a href="https://www.findsmiley.dk/Sider/Forside.aspx"> <img src="images/mainSmiley.png"  alt="Smiley rapport" id="ekslogo"> </a>
             </div>
         </div>
 
