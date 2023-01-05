@@ -16,8 +16,8 @@
 
     <meta property="og:title" content=" Kragebjerggaard | Shop ">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="...">
-    <meta property="og:image" content="...">
+    <meta property="og:url" content="https://oakydesigns.dk/3.sem.eks_Kragebjerggaard/index.php">
+    <meta property="og:image" content="https://oakydesigns.dk/3.sem.eks_Kragebjerggaard/index.php">
     <meta property="og:description" content="Hos Kragebjerggaard giver vi dig muligheden for, at bestille vores økologiske grøntsager,
     økologiske mælke og økologiske mælkeprodukter i vores online gårdbutik med levering direkte til din dør derhjemme.">
     <meta property="og:locale" content="da.DK">

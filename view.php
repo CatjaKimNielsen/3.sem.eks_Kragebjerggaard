@@ -97,6 +97,36 @@
         </div>
     </section>
 
+    <div class="row m-5">
+        <div class="col-md-4 col-sm-12 m-4">
+            <div class="card">
+                <img src="images/<?php echo $produkt->prodBillede; ?>"class="card-img-top>
+                    <div class="card-body">
+                        <h1 class="card-title text-center montserrat" style="font-size: 1.3rem"><?php echo $produkt->prodNavn; ?></h1>
+                        <p class="card-text text-center montserrat mb-3"><?php echo $produkt->prodPris; ?> kr.</p>
+                        <a href="view.php?id=<?php echo $produkt->prodId; ?>${item.prodId}" class="btn btn-mørkebrun text-white montserrat w-100">Se produkt</a>
+                    </div>
+            </div>
+        <div class="col-md-4 col-sm-12 m-4">
+            <div class="card">
+                <img src="images/<?php echo $produkt->prodBillede; ?>"class="card-img-top>
+                    <div class="card-body">
+                <h1 class="card-title text-center montserrat" style="font-size: 1.3rem"><?php echo $produkt->prodNavn; ?></h1>
+                <p class="card-text text-center montserrat mb-3"><?php echo $produkt->prodPris; ?> kr.</p>
+                <a href="view.php?id=<?php echo $produkt->prodId; ?>${item.prodId}" class="btn btn-mørkebrun text-white montserrat w-100">Se produkt</a>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-12 m-4">
+            <div class="card">
+                <img src="images/<?php echo $produkt->prodBillede; ?>"class="card-img-top>
+                    <div class="card-body">
+                <h1 class="card-title text-center montserrat" style="font-size: 1.3rem"><?php echo $produkt->prodNavn; ?></h1>
+                <p class="card-text text-center montserrat mb-3"><?php echo $produkt->prodPris; ?> kr.</p>
+                <a href="view.php?id=<?php echo $produkt->prodId; ?>${item.prodId}" class="btn btn-mørkebrun text-white montserrat w-100">Se produkt</a>
+            </div>
+        </div>
+        </div>
+
 
     <?php
     }
@@ -106,8 +136,6 @@
 
 
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-
-
     <script type="module">
         import Produkter from "./js/produkter.js"
         const produkter = new Produkter();
