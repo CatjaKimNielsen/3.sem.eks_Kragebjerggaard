@@ -5,11 +5,7 @@
     <?php
     require "settings/init.php";
     $id = $_GET["id"];
-    $produkter = $db->sql("SELECT * FROM produkter WHERE prodId=:prodId", [":prodId"=>$id]);
-    ?>
-
-    <?php
-    foreach ($produkter as $produkt){
+    $MainProduct = $db->sql("SELECT * FROM produkter WHERE prodId=:prodId", [":prodId"=>$id]);
     ?>
 
 
@@ -17,7 +13,7 @@
 
     <meta charset="utf-8">
 
-    <title> Kragebjerggaard | <?php echo $produkt->prodNavn; ?> </title>
+    <title> Kragebjerggaard | <?php echo $MainProduct->prodNavn; ?> </title>
 
     <meta name="robots" content="All">
     <meta name="author" content="Udgiver">
@@ -57,35 +53,35 @@
     <section class="container">
         <div class="row mt-3 p-5">
             <div class="col-12 col-md-6 mb-5">
-                <img src="images/<?php echo $produkt->prodBillede;?>">
+                <img src="images/<?php echo $MainProduct[0]->prodBillede;?>">
             </div>
             <div class="col-12 col-md-6 ps-5 pe-5 mb-5">
                 <div class="row">
                     <div class="col-12 pb-4 order-1">
                         <h1 class="montserrat" style="font-size: 1.5rem">
                             <?php
-                            echo $produkt->prodNavn;
+                            echo $MainProduct[0]->prodNavn;
                             ?>
                         </h1>
                     </div>
                     <div class="col-12 order-2 order-md-2">
                         <h2 class="montserrat" style="font-size: 1rem">
                             <?php
-                            echo $produkt->prodUcategory;
+                            echo $MainProduct[0]->prodUcategory;
                             ?>
                         </h2>
                     </div>
                     <div class="col-12 py-5 order-3 order-md-3">
                         <p class="montserrat">
                             <?php
-                            echo $produkt->prodBeskrivelse;
+                            echo $MainProduct[0]->prodBeskrivelse;
                             ?>
                         </p>
                     </div>
                     <div class="col-12 text-end pt-5 pb-4 order-4 order-md-4">
                         <p class="montserrat">
                             <?php
-                            echo number_format($produkt->prodPris, 2, ",", "." ). " kr.";
+                            echo number_format($MainProduct[0]->prodPris, 2, ",", "." ). " kr.";
                             ?>
                         </p>
                     </div>
@@ -97,45 +93,41 @@
         </div>
     </section>
 
-    <div class="row m-5">
-        <div class="col-md-4 col-sm-12 m-4">
-            <div class="card">
-                <img src="images/<?php echo $produkt->prodBillede; ?>"class="card-img-top>
-                    <div class="card-body">
-                        <h1 class="card-title text-center montserrat" style="font-size: 1.3rem"><?php echo $produkt->prodNavn; ?></h1>
-                        <p class="card-text text-center montserrat mb-3"><?php echo $produkt->prodPris; ?> kr.</p>
-                        <a href="view.php?id=<?php echo $produkt->prodId; ?>${item.prodId}" class="btn btn-mørkebrun text-white montserrat w-100">Se produkt</a>
-                    </div>
-            </div>
-        <div class="col-md-4 col-sm-12 m-4">
-            <div class="card">
-                <img src="images/<?php echo $produkt->prodBillede; ?>"class="card-img-top>
-                    <div class="card-body">
-                <h1 class="card-title text-center montserrat" style="font-size: 1.3rem"><?php echo $produkt->prodNavn; ?></h1>
-                <p class="card-text text-center montserrat mb-3"><?php echo $produkt->prodPris; ?> kr.</p>
-                <a href="view.php?id=<?php echo $produkt->prodId; ?>${item.prodId}" class="btn btn-mørkebrun text-white montserrat w-100">Se produkt</a>
-            </div>
-        </div>
-        <div class="col-md-4 col-sm-12 m-4">
-            <div class="card">
-                <img src="images/<?php echo $produkt->prodBillede; ?>"class="card-img-top>
-                    <div class="card-body">
-                <h1 class="card-title text-center montserrat" style="font-size: 1.3rem"><?php echo $produkt->prodNavn; ?></h1>
-                <p class="card-text text-center montserrat mb-3"><?php echo $produkt->prodPris; ?> kr.</p>
-                <a href="view.php?id=<?php echo $produkt->prodId; ?>${item.prodId}" class="btn btn-mørkebrun text-white montserrat w-100">Se produkt</a>
-            </div>
-        </div>
-        </div>
 
 
-    <?php
-    }
-    ?>
+    <nav class="row m-5">
+        <div>
+            <h2 class="montserrat mb-4" style="font-size: 1.5rem">Se flere produkter:</h2>
+        </div>
+
+        <?php
+        $produkter = $db->sql("SELECT * FROM produkter LIMIT 3");
+        foreach ($produkter as $produkt){
+        ?>
+
+        <div class="col-md-4 col-sm-12 mb-5">
+            <div class="card p-3">
+                <img src="images/<?php echo $produkt->prodBillede; ?>" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h3 class="card-title text-center montserrat" style="font-size: 1.3rem"><?php echo $produkt->prodNavn; ?></h3>
+                    <p class="card-text text-center montserrat mb-3"><?php echo $produkt->prodPris; ?> kr.</p>
+                    <a href="view.php?id=<?php echo $produkt->prodId; ?>${item.prodId}" class="btn btn-mørkebrun text-white montserrat w-100">Se produkt</a>
+                </div>
+            </div>
+        </div>
+
+        <?php
+        }
+        ?>
+    </nav>
+
 
     <?php include "includes/footer.php"; ?>
 
 
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+
     <script type="module">
         import Produkter from "./js/produkter.js"
         const produkter = new Produkter();
